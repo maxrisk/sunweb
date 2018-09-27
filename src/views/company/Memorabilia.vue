@@ -2,7 +2,7 @@
   <div class="memorabilia">
     <img src="../../assets/images/company/company-memorabilia.png" alt="阳光康众">
     <el-row type="flex" justify="center">
-      <el-col :sm="24" :md="16">
+      <el-col :sm="24" :md="20" :lg="18" :xl="16">
         <div class="swiper-con">
           <swiper :options="swiperOption" class="year-swiper" @slideChange="handleSlideChange" ref="yearSwiper">
             <swiper-slide v-for="(item, key) in list" :key="item.year" class="year-swiper-item" @click.native="slideTo(key)">{{ item.year }}</swiper-slide>
@@ -182,6 +182,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "../../assets/style/theme";
+@import "../../assets/style/media-queries";
 
 .memorabilia {
   margin-top: 80px;
@@ -193,7 +194,12 @@ export default {
 }
 
 .swiper-con {
-  padding: 0 150px;
+  padding: 0 120px;
+  height: auto;
+
+  @include mobile {
+    padding: 0 50px;
+  }
 }
 
 .year-swiper {

@@ -67,12 +67,12 @@
                     <swiper-slide class="hospital-swiper" v-for="(hospitals, index) in hospitalChunks" :key="index">
                       <el-row>
                         <el-col :xs="12" :sm="8" :md="6" class="hospital-item" v-for="(hospital, key) in hospitals" :key="key">
-                          <img :src="`https://yctimg.968309.net/pic/${hospital.LOGO_PATH}`" :alt="hospital.NAME">
+                          <img :src="hospital.LOGO_PATH !== '' ? `https://yctimg.968309.net/pic/${hospital.LOGO_PATH}` : `${baseUrl}${hospital.LOCAL_PATH}`" :alt="hospital.NAME">
                           <p>{{ hospital.NAME }}</p>
                         </el-col>
                       </el-row>
                     </swiper-slide>
-                    <div class="swiper-pagination"  slot="pagination"></div>
+                    <div class="swiper-pagination" slot="pagination"></div>
                   </swiper>
                 </swiper-slide>
               </swiper>
@@ -111,6 +111,17 @@
         <sun-footer></sun-footer>
       </div>
     </full-page>
+    <div class="customer-service">
+      <el-popover
+          placement="left"
+          width="80"
+          trigger="hover"
+          popper-class="my-popper"
+          v-model="contactVisible">
+        <div class="customer-service-contact">客服电话：<br>400-152-0899</div>
+        <img src="../assets/images/home/customer-service.png" alt="客服" slot="reference">
+      </el-popover>
+    </div>
   </div>
 </template>
 
@@ -123,8 +134,10 @@ export default {
   name: "home",
   data() {
     return {
+      baseUrl: process.env.BASE_URL,
       hospitals: hospitals.RECORDS,
       qrcodeVisible: false,
+      contactVisible: false,
       activeName: "second",
       swiperCurIndex: 0,
       options: {
@@ -186,7 +199,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 @import "~swiper/dist/css/swiper.css";
 @import "../assets/style/media-queries";
 @import "../assets/style/theme";
@@ -197,8 +210,8 @@ export default {
   top: 80px;
   background: url($imgPath) center no-repeat;
   background-size: contain;
-  width: 88%;
-  margin: 0 auto;
+  /*width: 88%;*/
+  /*margin: 0 auto;*/
   @include mobile {
     height: calc(100% - 50px);
     top: 50px;
@@ -409,7 +422,22 @@ export default {
     }
   }
 }
+.customer-service {
+  position: absolute;
+  right: 20px;
+  bottom: 28px;
+  z-index: 99;
+
+  &-contact {
+    font-size: 14px;
+    line-height: 18px;
+    color: $primary-color;
+  }
+}
 .home-footer {
   padding: 30px 0;
+}
+.my-popper {
+  min-width: 100px !important;
 }
 </style>
