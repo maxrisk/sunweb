@@ -1,0 +1,340 @@
+{
+    "RECORDS": [
+        {
+            "NAME": "广东省中医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/909db408170b45ad9e7dd367d110a364.png"
+        },
+        {
+            "NAME": "广东省中医院珠海医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/ce095f8c07c940138ca02d72f334594d.png"
+        },
+        {
+            "NAME": "广东省中医院（珠海医院）",
+            "LOGO_PATH": "/file/hospitalLogoPath/1a7ebb86c0b545f6a6c4d782ef668b7b.png"
+        },
+        {
+            "NAME": "广东省水电医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/a418d322de174e2abd5d179df282afbf.jpg"
+        },
+        {
+            "NAME": "广东省第二中医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/ef8f798f0e5049dc90943fc1f6ca58b5.jpg"
+        },
+        {
+            "NAME": "广东省第二人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/207d37cc677443ea814bd92e80c9abcd.png"
+        },
+        {
+            "NAME": "广东药科大学附属第一医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/a2586cb3144342f5b38914d7faf88b3c.png"
+        },
+        {
+            "NAME": "广宁县妇幼保健院",
+            "LOGO_PATH": "/file/hospitalLogoPath/e37b22623ddb463ba892c743fb1cc858.png"
+        },
+        {
+            "NAME": "广州中医药大学第一附属医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/910bdcb82de543309ea950b2a4d0032e.jpg"
+        },
+        {
+            "NAME": "广州医科大学附属第一医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/2ea43deafb934f45bf52766b59eb663b.jpg"
+        },
+        {
+            "NAME": "广州医科大学附属第二医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/dcdf815ebae94a949b58d92583b95afa.png"
+        },
+        {
+            "NAME": "广州妇婴医院（人民中路）",
+            "LOGO_PATH": "/file/hospitalLogoPath/410bb104b8654bb6aad077f83bda99fa.png"
+        },
+        {
+            "NAME": "广州市中医医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/6b6512a7e1184e63b3c79283a74014f8.png"
+        },
+        {
+            "NAME": "广州市中西医结合医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/f79d7d7d744b42e99633bb5331557bfa.jpg"
+        },
+        {
+            "NAME": "广州市从化区中医医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/4a3902a0b2794b18bb0a720cafab906f.jpg"
+        },
+        {
+            "NAME": "广州市从化区妇幼保健院",
+            "LOGO_PATH": "/file/hospitalLogoPath/8ba83e7768d04175bd7d8ee54c168209.jpg"
+        },
+        {
+            "NAME": "广州市儿童医院（人民中路）",
+            "LOGO_PATH": "/file/hospitalLogoPath/58abf877d98946e0a910fafef1f690b1.png"
+        },
+        {
+            "NAME": "广州市增城区中医医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/dcb7faa71bf34ab3973c738822e580e4.png"
+        },
+        {
+            "NAME": "广州市天河区妇幼保健院",
+            "LOGO_PATH": "/file/hospitalLogoPath/6dfdf1e5a2894948ab4175c13bd26c93.jpg"
+        },
+        {
+            "NAME": "广州市妇女儿童医疗中心(珠江新城)",
+            "LOGO_PATH": "/file/hospitalLogoPath/6bc95ad6ce7545f58c572a5c12db95b8.png"
+        },
+        {
+            "NAME": "广州市皮肤病防治所",
+            "LOGO_PATH": "/file/hospitalLogoPath/ab6c9ae68de446f0b9d6ee949d9c8965.jpg"
+        },
+        {
+            "NAME": "广州市第八人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/21d035dc4b3948b48a48d5c0c52ac3c3.jpg"
+        },
+        {
+            "NAME": "广州市胸科医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/7b91ef1dd55547a0a438b3c8d97326ba.png"
+        },
+        {
+            "NAME": "广州市花都区人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/328d823c073d49c8930f2fd4371774d3.jpg"
+        },
+        {
+            "NAME": "广州市荔湾区骨伤科医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/e97d6009c039489c91421de71c831b83.jpg"
+        },
+        {
+            "NAME": "广州市越秀区儿童医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/01c0aaf21fcd469b8d44812283845654.jpg"
+        },
+        {
+            "NAME": "广州市越秀区妇幼保健院",
+            "LOGO_PATH": "/file/hospitalLogoPath/10289a1dddcc4d5f899c3af6b7531988.jpg"
+        },
+        {
+            "NAME": "广州新海医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/3219f43938214759b9a3fe29528fa687.png"
+        },
+        {
+            "NAME": "东源县人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/bfe143391df249d89754ce79942a913b.png"
+        },
+        {
+            "NAME": "中大眼科（新HIS）竹叶用勿改",
+            "LOGO_PATH": "/file/hospitalLogoPath/f357e17e970048cc912dbdb7c4cdd14f.png"
+        },
+        {
+            "NAME": "中山大学孙逸仙纪念医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/20586eeb9d8743e196c245735126a067.png"
+        },
+        {
+            "NAME": "中山大学附属眼科医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/72a3fb82c9f846dfbafb592349cb34b8.png"
+        },
+        {
+            "NAME": "中山大学附属第三医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/0c9668acafec4779aa8af177b4954cdd.jpg"
+        },
+        {
+            "NAME": "佛山市南海区第二人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/f6da94ef6a9d47f89be3f05bce82907c.png"
+        },
+        {
+            "NAME": "佛山市南海区第四人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/92b64d37bc2848f6a1c174428b9d4d9a.png"
+        },
+        {
+            "NAME": "佛山市顺德区均安医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/4ce2986b006b46068a21cf03a3563bdf.png"
+        },
+        {
+            "NAME": "佛山市顺德区龙江医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/b8a630730217465ba261038f8bfa204e.PNG"
+        },
+        {
+            "NAME": "北京固生堂中医养生健康科技股份有限公司",
+            "LOGO_PATH": "/file/hospitalLogoPath/00de1fdecc0f4962bb71bca625147750.png"
+        },
+        {
+            "NAME": "博罗县人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/27ecff5e8b5648a1b0565175ae2b8ffc.jpg"
+        },
+        {
+            "NAME": "四会市人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/c63fecb02ad742a295855476c407b89f.jpg"
+        },
+        {
+            "NAME": "固生堂中医",
+            "LOGO_PATH": "/file/hospitalLogoPath/83184d897e314cecbaef874138cfc604.png"
+        },
+        {
+            "NAME": "开平市中医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/b24afc024a6e412da67dc1492cb8f9ca.png"
+        },
+        {
+            "NAME": "德庆县人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/a2046a80a870450288147eeaaefcb2ff.png"
+        },
+        {
+            "NAME": "惠东县中医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/1bdf079efb7447c4b790ea96d7a84cf6.jpg"
+        },
+        {
+            "NAME": "惠东县人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/923159850e8d4d66b426bb53fb80aeeb.jpg"
+        },
+        {
+            "NAME": "惠东县第二人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/db38fe7d196a4b6e96c3eebec7acadbb.png"
+        },
+        {
+            "NAME": "惠州市中医医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/8e7779528a91401083ec2cb972b0c712.jpg"
+        },
+        {
+            "NAME": "惠州市第三人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/f38272fb828e483a84726dd7e67f3eb0.jpg"
+        },
+        {
+            "NAME": "新疆生产建设兵团笫四师医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/d9381ec1d4c5435bb110dfd959b574d6.png"
+        },
+        {
+            "NAME": "暨南大学附属第一医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/167e1b7517f74b4f9a5826de8af54c9a.png"
+        },
+        {
+            "NAME": "武汉第三医院（武汉市同仁医院）",
+            "LOGO_PATH": ""
+        },
+        {
+            "NAME": "汕尾市人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/179fe88caefd4712953b76486ca9c905.png"
+        },
+        {
+            "NAME": "河源和平县人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/5e720a6e82ca42108f9ada6296ea6a99.png"
+        },
+        {
+            "NAME": "河源市中医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/06d40d3ca753431dbb2e853d21d7f085.jpg"
+        },
+        {
+            "NAME": "浙江中医药大学附属第二医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/bd7eceee68424785988d2cd2a3716ac7.jpg"
+        },
+        {
+            "NAME": "海南医学院第一附属医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/729d56b74efc4517ad7846c332fb0c99.jpg"
+        },
+        {
+            "NAME": "海南省中医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/f81ffe7162cf4cc4b083945d1a0d72c0.jpg"
+        },
+        {
+            "NAME": "海南省人民医院",
+            "LOGO_PATH": ""
+        },
+        {
+            "NAME": "海南省妇幼保健院",
+            "LOGO_PATH": "/file/hospitalLogoPath/f1b2c93ab04a4078bcf9cd52d10b9f58.jpg"
+        },
+        {
+            "NAME": "海南省安宁医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/6e1d3a4a15c34d3aa6b6ab2760d414d5.jpg"
+        },
+        {
+            "NAME": "海南省平山医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/fba9124d06f54067804855f53dfb5107.jpg"
+        },
+        {
+            "NAME": "海南省皮肤病医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/f7d50fe419334c52a0fb26a842b58e72.jpg"
+        },
+        {
+            "NAME": "海南省第三人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/7ce24fc588034891abdfbfc6853db499.png"
+        },
+        {
+            "NAME": "海南省第二人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/a0180f2c6a6a498ead9a88e3cff70d03.png"
+        },
+        {
+            "NAME": "海口市人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/da0e9c0b6b5849c6ad89533872f4b43c.jpg"
+        },
+        {
+            "NAME": "深圳市龙岗区第三人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/74eb5a15ccd84a218e80b6161b52c2ad.jpg"
+        },
+        {
+            "NAME": "深圳市龙岗区第四人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/0349d3797b18448cbcca00fd63fa565f.jpg"
+        },
+        {
+            "NAME": "潮州市湘桥区妇幼保健院",
+            "LOGO_PATH": "/file/hospitalLogoPath/910115d903234e7eb7bc85ba95b3ec65.jpeg"
+        },
+        {
+            "NAME": "珠海市妇幼保健院",
+            "LOGO_PATH": "/file/hospitalLogoPath/80304597ba024a489a445357926ae04c.png"
+        },
+        {
+            "NAME": "珠海市第二人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/0cb68498e2a9450b966ef617f685309c.png"
+        },
+        {
+            "NAME": "珠海广安手足外科医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/e2c50c30ba724d30804ddbd462013d63.png"
+        },
+        {
+            "NAME": "珠海高新技术产业开发区人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/46050b74bc32471894786a550f019716.jpg"
+        },
+        {
+            "NAME": "琼中黎族苗族自治县人民医院",
+            "LOGO_PATH": ""
+        },
+        {
+            "NAME": "琼海市人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/78cf27df4da84bf19094bc3c187e2862.jpg"
+        },
+        {
+            "NAME": "福建省仙游县医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/ae5f7cbe007645bba0350aa7135d8676.jpg"
+        },
+        {
+            "NAME": "英德市妇幼保健计划生育服务中心",
+            "LOGO_PATH": "/file/hospitalLogoPath/0bb86643d14e49f591f363fb97d801b0.jpg"
+        },
+        {
+            "NAME": "银川市第一人民医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/dea74b4bcf07483ba566c9594f55ab2b.jpg"
+        },
+        {
+            "NAME": "阳春市妇幼保健院",
+            "LOGO_PATH": "/file/hospitalLogoPath/aff47069c91d4628a8ccc0371d47cc93.jpg"
+        },
+        {
+            "NAME": "顺德区北滘医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/0bc03bdbb3c74ef6a8476e5824d1933e.jpg"
+        },
+        {
+            "NAME": "顺德区大良医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/f3624b420a344f07a171214c980c0c7a.jpg"
+        },
+        {
+            "NAME": "顺德区妇幼保健院",
+            "LOGO_PATH": "/file/hospitalLogoPath/aed3ce0d59d24886a2a0991c411e1bd0.png"
+        },
+        {
+            "NAME": "顺德和平外科医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/0ee6c0f03075430a95c2bdec34211ce1.png"
+        },
+        {
+            "NAME": "马鞍山十七冶医院",
+            "LOGO_PATH": "/file/hospitalLogoPath/eb357630282844cb9e8f2452dd44b7c1.png"
+        },
+        {
+            "NAME": "龙川县妇幼保健院",
+            "LOGO_PATH": "/file/hospitalLogoPath/a841bbaed518455591754ac2183230f3.jpg"
+        }
+    ]
+}

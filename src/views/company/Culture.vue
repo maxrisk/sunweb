@@ -16,14 +16,14 @@
             </el-col>
             <el-col :sm="8" :md="8">
               <div class="content-list disease-margin" v-scroll-reveal="{ delay: 150 }">
-                <img src="../../assets/images/company/culture-disease.png" alt="equal">
+                <img src="../../assets/images/company/culture-disease.png" alt="equal" style="width: 68px; height: 62px; margin-top: 22px;">
                 <h1 class="content-list-title">治未病</h1>
                 <p>阳光康众的每一位员工，都拥有一味中药名。自上至下，人人皆以药名相称，没有职级之分。各味药材缘聚在阳光康众，团结友爱，平等和谐，创新进取，其乐融融。</p>
               </div>
             </el-col>
             <el-col :sm="8" :md="8">
               <div class="content-list drug-margin-left" v-scroll-reveal="{ delay: 300 }">
-                <img src="../../assets/images/company/culture-drug.png" alt="equal">
+                <img src="../../assets/images/company/culture-drug.png" alt="equal" style="width: 68px; height: 62px; margin-top: 22px;">
                 <h1 class="content-list-title">“药”尽其才</h1>
                 <p>阳光康众的每一位员工，都拥有一味中药名。自上至下，人人皆以药名相称，没有职级之分。各味药材缘聚在阳光康众，团结友爱，平等和谐，创新进取，其乐融融。</p>
               </div>

@@ -64,71 +64,11 @@
                   <p class="hospital-list-desc">面对医院，提供创新性信息化建设方案和推广服务，助力医院提高运营效率，并打造互联网分级诊疗平台，实现医联体内诊疗信息互联互通。</p>
                   <p class="hospital-list-subtitle">合作医院</p>
                   <swiper :options="{ pagination: { el: '.swiper-pagination', clickable: true, bulletClass: 'home-bullet', bulletActiveClass: 'home-bullet-active' } }">
-                    <swiper-slide class="hospital-swiper">
+                    <swiper-slide class="hospital-swiper" v-for="(hospitals, index) in hospitalChunks" :key="index">
                       <el-row>
-                        <el-col :xs="12" :sm="8" :md="6" class="hospital-item">
-                          <img src="../assets/images/home/hospital-logo.jpeg" alt="广州妇女儿童医疗中心">
-                          <p>广州妇女儿童医疗中心</p>
-                        </el-col>
-                        <el-col :xs="12" :sm="8" :md="6" class="hospital-item">
-                          <img src="../assets/images/home/hospital-logo.jpeg" alt="广州妇女儿童医疗中心">
-                          <p>广州妇女儿童医疗中心</p>
-                        </el-col>
-                        <el-col :xs="12" :sm="8" :md="6" class="hospital-item">
-                          <img src="../assets/images/home/hospital-logo.jpeg" alt="广州妇女儿童医疗中心">
-                          <p>广州妇女儿童医疗中心</p>
-                        </el-col>
-                        <el-col :xs="12" :sm="8" :md="6" class="hospital-item">
-                          <img src="../assets/images/home/hospital-logo.jpeg" alt="广州妇女儿童医疗中心">
-                          <p>广州妇女儿童医疗中心</p>
-                        </el-col>
-                        <el-col :xs="12" :sm="8" :md="6" class="hospital-item">
-                          <img src="../assets/images/home/hospital-logo.jpeg" alt="广州妇女儿童医疗中心">
-                          <p>广州妇女儿童医疗中心</p>
-                        </el-col>
-                        <el-col :xs="12" :sm="8" :md="6" class="hospital-item">
-                          <img src="../assets/images/home/hospital-logo.jpeg" alt="广州妇女儿童医疗中心">
-                          <p>广州妇女儿童医疗中心</p>
-                        </el-col>
-                        <el-col :xs="12" :sm="8" :md="6" class="hospital-item">
-                          <img src="../assets/images/home/hospital-logo.jpeg" alt="广州妇女儿童医疗中心">
-                          <p>广州妇女儿童医疗中心</p>
-                        </el-col>
-                        <el-col :xs="12" :sm="8" :md="6" class="hospital-item">
-                          <img src="../assets/images/home/hospital-logo.jpeg" alt="广州妇女儿童医疗中心">
-                          <p>广州妇女儿童医疗中心</p>
-                        </el-col>
-                        <el-col :xs="12" :sm="8" :md="6" class="hospital-item">
-                          <img src="../assets/images/home/hospital-logo.jpeg" alt="广州妇女儿童医疗中心">
-                          <p>广州妇女儿童医疗中心</p>
-                        </el-col>
-                        <el-col :xs="12" :sm="8" :md="6" class="hospital-item">
-                          <img src="../assets/images/home/hospital-logo.jpeg" alt="广州妇女儿童医疗中心">
-                          <p>广州妇女儿童医疗中心</p>
-                        </el-col>
-                        <el-col :xs="12" :sm="8" :md="6" class="hospital-item">
-                          <img src="../assets/images/home/hospital-logo.jpeg" alt="广州妇女儿童医疗中心">
-                          <p>广州妇女儿童医疗中心</p>
-                        </el-col>
-                        <el-col :xs="12" :sm="8" :md="6" class="hospital-item">
-                          <img src="../assets/images/home/hospital-logo.jpeg" alt="广州妇女儿童医疗中心">
-                          <p>广州妇女儿童医疗中心</p>
-                        </el-col>
-                      </el-row>
-                    </swiper-slide>
-                    <swiper-slide class="hospital-swiper">
-                      <el-row>
-                        <el-col :xs="12" :sm="8" :md="6" class="hospital-item">
-                          <img src="../assets/images/home/hospital-logo.jpeg" alt="广州妇女儿童医疗中心">
-                          <p>广州妇女儿童医疗中心</p>
-                        </el-col>
-                        <el-col :xs="12" :sm="8" :md="6" class="hospital-item">
-                          <img src="../assets/images/home/hospital-logo.jpeg" alt="广州妇女儿童医疗中心">
-                          <p>广州妇女儿童医疗中心</p>
-                        </el-col>
-                        <el-col :xs="12" :sm="8" :md="6" class="hospital-item">
-                          <img src="../assets/images/home/hospital-logo.jpeg" alt="广州妇女儿童医疗中心">
-                          <p>广州妇女儿童医疗中心</p>
+                        <el-col :xs="12" :sm="8" :md="6" class="hospital-item" v-for="(hospital, key) in hospitals" :key="key">
+                          <img :src="`https://yctimg.968309.net/pic/${hospital.LOGO_PATH}`" :alt="hospital.NAME">
+                          <p>{{ hospital.NAME }}</p>
                         </el-col>
                       </el-row>
                     </swiper-slide>
@@ -177,11 +117,13 @@
 <script>
 import { swiper, swiperSlide } from "vue-awesome-swiper";
 import SunFooter from "../components/SunFooter";
+import hospitals from "../../hospitals";
 
 export default {
   name: "home",
   data() {
     return {
+      hospitals: hospitals.RECORDS,
       qrcodeVisible: false,
       activeName: "second",
       swiperCurIndex: 0,
@@ -205,6 +147,27 @@ export default {
   methods: {
     slideTo(index) {
       this.$refs.swiper.swiper.slideTo(index, 500);
+    },
+    arrayChunk(arr, size) {
+      if (!Array.isArray(arr)) return false;
+
+      let i,
+        j,
+        newArr = [];
+
+      for (i = 0, j = arr.length; i < j; i += size) {
+        newArr.push(arr.slice(i, i + size));
+      }
+
+      return newArr;
+    }
+  },
+  mounted() {
+    console.log(hospitals);
+  },
+  computed: {
+    hospitalChunks() {
+      return this.arrayChunk(this.hospitals, 12);
     }
   },
   watch: {
@@ -233,7 +196,7 @@ export default {
   position: relative;
   top: 80px;
   background: url($imgPath) center no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 88%;
   margin: 0 auto;
   @include mobile {
@@ -284,7 +247,7 @@ export default {
 
 .btn-container {
   position: absolute;
-  top: 68%;
+  top: 75%;
   left: 50%;
   transform: translateX(50%);
 

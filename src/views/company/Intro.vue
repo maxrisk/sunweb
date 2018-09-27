@@ -25,7 +25,7 @@
     <div class="company-history">
       <el-row type="flex" justify="center" class="history-bottom">
         <el-col :sm="24" :md="16">
-          <h5 class="secondary-title" v-scroll-reveal><span class="title-begin">1 ）企业</span><span class="title-end bold-text">简要发展史</span></h5>
+          <h5 class="secondary-title" v-scroll-reveal><span class="title-begin">1 ）企业 </span><span class="title-end bold-text">简要发展史</span></h5>
           <div class="history-content history-sun" v-scroll-reveal>
             <img class="right-img" src="../../assets/images/company/company-history.png" alt="companyhistoryimage">
             <p>阳光康众公司注册资金 5308 万元，自创立 9 年以来，一直以“让健康来之容易”为企业使命，致力于改善“看病烦、看病难”问题，搭建以“互联网+”为基础的智慧型医疗健康服务平台。先后与超过 300 家医院达成合作，累计为超过 500 万人次提供过“互联网+医疗”服务，为患者节约就医时间累计超过 250 万小时。2015 年 4 月，阳光康众携手中国银联共同推出医程通产品，并在 2016 年 8 月成功升级为医程通 APP 3.0，合作区域遍及广东、山东、海南、安徽、河北、湖南等地，一举使当地市民就医进入指尖医院时代，医程通打通就医全流程，大大降低了患者看病时的时间成本和精力成本，也为医患关系的和谐共处营造温床。深耕医疗的 9 年，我们不断优化医院就医流程，持续挖掘需求、迭代功能，致力于提升医院和用户的满意度，享受更加便捷的医疗服务。</p>
@@ -54,7 +54,7 @@
                 <img class="company-advantage-img" src="../../assets/images/company/company-advantage.png" alt="company-advantage">
               </el-col>
               <el-col :sm="16" :md="16" v-scroll-reveal>
-                <h5 class="secondary-title"><span class="title-begin">2 ）企业</span><span class="title-end bold-text">核心优势资源</span></h5>
+                <h5 class="secondary-title"><span class="title-begin">2 ）企业 </span><span class="title-end bold-text">核心优势资源</span></h5>
                 <h3 class="yct-special">1、“医程通” APP 产品特色功能</h3>
                 <p><img class="tick-icon" src="../../assets/images/company/company-tick.png" alt="company-tick">就医全流程。面对大众，阳光康众与医院开展深度合作，打通就医全流程，通过手机即可完成门诊、住院、医保等传统线下就医全流程，方便患者到医院就医，功能包括当天挂号、预约挂号、医保支付、排队候诊、门诊缴费、报告查询、住院押金、住院清单、院内导航等。</p>
                 <p><img class="tick-icon" src="../../assets/images/company/company-tick.png" alt="company-tick">线上绑定社保卡功能，在线社保卡余额查询，实现医保个账在线支付。</p>
@@ -209,6 +209,7 @@ export default {
   line-height: 27px;
   color: #313131;
   margin: 0;
+  font-weight: normal;
 }
 
 .title-end {

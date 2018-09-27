@@ -103,7 +103,7 @@ a {
   &-item {
     font-size: 16px;
     color: #6a6a6a;
-    margin-right: 95px;
+    padding: 0 45px;
     transition: color 0.25s;
 
     .el-dropdown-link {
