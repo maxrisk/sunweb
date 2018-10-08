@@ -86,7 +86,7 @@ export default {
 <style scoped lang="scss">
 @import "../../assets/style/media-queries";
 .company {
-  margin-top: 80px;
+  margin-top: 70px;
   @include mobile {
     margin-top: 50px;
   }

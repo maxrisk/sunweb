@@ -185,7 +185,7 @@ export default {
 @import "../../assets/style/media-queries";
 
 .memorabilia {
-  margin-top: 80px;
+  margin-top: 70px;
 
   & > img {
     width: 100%;

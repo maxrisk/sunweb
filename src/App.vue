@@ -81,11 +81,11 @@ a {
   background-color: #fff;
 }
 .pc-nav {
-  height: 80px;
+  height: 70px;
   box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.3);
 
   &-logo {
-    width: 170px;
+    width: 140px;
   }
 }
 .mobile-nav {

@@ -190,100 +190,100 @@
 </template>
 
 <script>
-    import SunFooter from "../components/SunFooter";
+import SunFooter from "../components/SunFooter";
 
-    export default {
-        name: "join",
-        components: {
-            SunFooter
-        }
-    };
+export default {
+  name: "join",
+  components: {
+    SunFooter
+  }
+};
 </script>
 
 <style scoped lang="scss">
-  @import "../assets/style/media-queries";
+@import "../assets/style/media-queries";
 
-  .el-col {
-    border-radius: 4px;
+.el-col {
+  border-radius: 4px;
+}
+
+.grid-content {
+  border-radius: 4px;
+  min-height: 36px;
+}
+
+.join {
+  margin-top: 70px;
+  @include mobile {
+    margin-top: 50px;
   }
 
-  .grid-content {
-    border-radius: 4px;
-    min-height: 36px;
-  }
-
-  .join {
-    margin-top: 80px;
-    @include mobile {
-      margin-top: 50px;
-    }
-
-    &-banner {
-      img {
-        width: 100%;
-      }
-    }
-
-    &-description {
-      p {
-        margin-top: 40px;
-        font-size: 14px;
-        line-height: 27px;
-        color: #6a6a6a;
-      }
-    }
-
-    &-recruit {
-      margin-top: 20px;
-      .recruit-info {
-        margin: 20px 0;
-        position: relative;
-        float: left;
-        h1 {
-          margin-top: 134px;
-          font-size: 30px;
-          color: #313131;
-        }
-      }
+  &-banner {
+    img {
+      width: 100%;
     }
   }
 
-  .responsibility {
-    margin-top: 15px;
-    h3 {
-      line-height: 27px;
-      font-size: 16px;
-      color: #313131;
-      margin: 0;
-    }
-
+  &-description {
     p {
+      margin-top: 40px;
+      font-size: 14px;
       line-height: 27px;
-      font-size: 16px;
       color: #6a6a6a;
-      margin: 0;
     }
   }
 
-  .margin-left-right {
-    padding-left: 15px;
-    padding-right: 15px;
+  &-recruit {
+    margin-top: 20px;
+    .recruit-info {
+      margin: 20px 0;
+      position: relative;
+      float: left;
+      h1 {
+        margin-top: 134px;
+        font-size: 30px;
+        color: #313131;
+      }
+    }
   }
+}
 
-  .portrait {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 110px;
-    height: 110px;
-  }
-
-  .company-address {
-    clear: both;
-    margin-top: 15px;
-    margin-bottom: 55px;
-    font-size: 14px;
+.responsibility {
+  margin-top: 15px;
+  h3 {
     line-height: 27px;
+    font-size: 16px;
     color: #313131;
+    margin: 0;
   }
+
+  p {
+    line-height: 27px;
+    font-size: 16px;
+    color: #6a6a6a;
+    margin: 0;
+  }
+}
+
+.margin-left-right {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.portrait {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110px;
+  height: 110px;
+}
+
+.company-address {
+  clear: both;
+  margin-top: 15px;
+  margin-bottom: 55px;
+  font-size: 14px;
+  line-height: 27px;
+  color: #313131;
+}
 </style>

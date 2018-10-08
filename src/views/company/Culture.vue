@@ -58,7 +58,7 @@ export default {
 @import "../../assets/style/media-queries";
 
 .culture {
-  margin-top: 80px;
+  margin-top: 70px;
 
   @mixin mobile {
     margin-top: 50px;

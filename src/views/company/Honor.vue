@@ -191,7 +191,7 @@ export default {
 @import "../../assets/style/media-queries";
 
 .honor {
-  margin-top: 80px;
+  margin-top: 70px;
   @include mobile {
     margin-top: 50px;
   }

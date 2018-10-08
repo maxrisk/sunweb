@@ -39,6 +39,11 @@ export default new Router({
       component: Home
     },
     {
+      path: "/home",
+      name: "index",
+      component: () => import("./views/Index.vue")
+    },
+    {
       path: "/join",
       name: "join",
       meta: { scrollToTop: true },
