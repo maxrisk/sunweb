@@ -164,7 +164,7 @@
                 <li :class="{ active: swiperCurIndex === 1 }" @click="swiperCurIndex = 1">携手中国银联</li>
                 <li :class="{ active: swiperCurIndex === 2 }" @click="swiperCurIndex = 2">三甲医院强势入驻</li>
               </ul>
-              <swiper ref="swiper" class="swiper-con" :options="{ allowTouchMove: false }">
+              <swiper ref="swiper" class="swiper-con" :options="{ onSetTransition: function(swiper) {swiper.disableTouchControl();} }">
                 <swiper-slide>
                   <el-row class="slide-container">
                     <el-col :xs="24" :sm="12" class="slide-container-content">
@@ -194,7 +194,7 @@
                   <p class="hospital-list-desc">面对医院，提供创新性信息化建设方案和推广服务，助力医院提高运营效率，并打造互联网分级诊疗平台，实现医联体内诊疗信息互联互通。</p>
                   <p class="hospital-list-subtitle">合作医院</p>
                   <swiper
-                      :options="{ pagination: { el: '.swiper-pagination', clickable: true, bulletClass: 'home-bullet', bulletActiveClass: 'home-bullet-active' } }">
+                      :options="swiperOptions">
                     <swiper-slide class="hospital-swiper" v-for="(hospitals, index) in hospitalChunks" :key="index">
                       <el-row>
                         <el-col :xs="12" :sm="8" :md="6" class="hospital-item" v-for="(hospital, key) in hospitals"
@@ -288,6 +288,12 @@ export default {
           "#edf3ff",
           "#b4b8ab"
         ]
+      },
+      swiperOptions: {
+        pagination: ".swiper-pagination",
+        paginationClickable: true,
+        bulletClass: "home-bullet",
+        bulletActiveClass: "home-bullet-active"
       }
     };
   },

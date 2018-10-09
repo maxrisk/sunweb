@@ -4,7 +4,7 @@
     <el-row type="flex" justify="center">
       <el-col :sm="24" :md="20" :lg="18" :xl="16" style="height: 510px;">
         <div class="swiper-con">
-          <swiper :options="swiperOption" class="year-swiper" @slideChange="handleSlideChange" ref="yearSwiper">
+          <swiper :options="swiperOption" class="year-swiper" ref="yearSwiper">
             <swiper-slide v-for="(item, key) in list" :key="item.year" class="year-swiper-item" @click.native="slideTo(key)">{{ item.year }}</swiper-slide>
             <div class="swiper-button-prev" slot="button-prev"></div>
             <div class="swiper-button-next" slot="button-next"></div>
@@ -113,7 +113,8 @@ export default {
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev"
-        }
+        },
+        onSlideChangeEnd: this.handleSlideChange
       }
     };
   },
