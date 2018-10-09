@@ -63,7 +63,7 @@
                   <h2>三甲医院强势入驻</h2>
                   <p class="hospital-list-desc">面对医院，提供创新性信息化建设方案和推广服务，助力医院提高运营效率，并打造互联网分级诊疗平台，实现医联体内诊疗信息互联互通。</p>
                   <p class="hospital-list-subtitle">合作医院</p>
-                  <swiper :options="{ pagination: { el: '.swiper-pagination', clickable: true, bulletClass: 'home-bullet', bulletActiveClass: 'home-bullet-active' } }">
+                  <swiper :options="{ pagination: { el: '.swiper-pagination', clickable: true, bulletClass: 'home-bullet', bulletActiveClass: 'home-bullet-active' }, on: { slideChange: test } }">
                     <swiper-slide class="hospital-swiper" v-for="(hospitals, index) in hospitalChunks" :key="index">
                       <el-row>
                         <el-col :xs="12" :sm="8" :md="6" class="hospital-item" v-for="(hospital, key) in hospitals" :key="key">
@@ -158,6 +158,9 @@ export default {
     };
   },
   methods: {
+    test() {
+      return false;
+    },
     slideTo(index) {
       this.$refs.swiper.swiper.slideTo(index, 500);
     },
@@ -432,12 +435,13 @@ export default {
     font-size: 14px;
     line-height: 18px;
     color: $primary-color;
+    white-space: nowrap;
   }
 }
 .home-footer {
   padding: 30px 0;
 }
 .my-popper {
-  min-width: 100px !important;
+  min-width: 90px !important;
 }
 </style>

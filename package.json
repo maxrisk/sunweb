@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "element-ui": "^2.4.6",
+    "fullpage.js": "^3.0.3",
     "normalize.css": "^8.0.0",
     "vue": "^2.5.17",
     "vue-awesome-swiper": "^3.1.3",

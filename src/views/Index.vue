@@ -4,63 +4,62 @@
       <div class="section">
         <div style="height: 100%;">
           <div class="section-page first-section">
-              <div class="first-center">
-                <div class="first-left fl">
-                     <img src="../assets/images/new/first-img01.png">
-                </div>
-                <div class="first-right fr">
-                    <h3><img src="../assets/images/new/first-tit01.png"></h3>
-                    <h4><img src="../assets/images/new/first-tit02.png"></h4>
-                    <div class="first-list">
+            <div class="first-center">
+              <div class="first-left fl">
+                <img src="../assets/images/new/first-img01.png">
+              </div>
+              <div class="first-right fr">
+                <h3><img src="../assets/images/new/first-tit01.png"></h3>
+                <h4><img src="../assets/images/new/first-tit02.png"></h4>
+                <div class="first-list">
                         <span>
                             <img src="../assets/images/new/first-icon01.png">
                             <strong>挂号</strong>
                          </span>
-                         <span>
+                  <span>
                             <img src="../assets/images/new/first-icon02.png">
                             <strong>排队候诊</strong>
                          </span>
-                         <span>
+                  <span>
                             <img src="../assets/images/new/first-icon03.png">
                             <strong>门诊缴费</strong>
                          </span>
-                         <span>
+                  <span>
                             <img src="../assets/images/new/first-icon04.png">
                             <strong>报告查询</strong>
                          </span>
-                         <span>
+                  <span>
                             <img src="../assets/images/new/first-icon01.png">
                             <strong>挂号</strong>
                          </span>
-                         <span>
+                  <span>
                             <img src="../assets/images/new/first-icon02.png">
                             <strong>排队候诊</strong>
                          </span>
-                         <span>
+                  <span>
                             <img src="../assets/images/new/first-icon03.png">
                             <strong>门诊缴费</strong>
                          </span>
-                          <span>
+                  <span>
                             <img src="../assets/images/new/first-icon04.png">
                             <strong>报告查询</strong>
                          </span>
-                    </div>
-                    <div class="btn-download">
+                </div>
+                <div class="btn-download">
 
-                      <el-popover
-                              placement="top"
-                              width="180"
-                              trigger="hover"
-                              v-model="qrcodeVisible">
-                        <img src="../assets/images/qrcode.png" width="180" alt="二维码">
-                        <button slot="reference" class="gradient-btn" >立即下载</button>
-                      </el-popover>
+                  <el-popover
+                      placement="top"
+                      width="180"
+                      trigger="hover"
+                      v-model="qrcodeVisible">
+                    <img src="../assets/images/qrcode.png" width="180" alt="二维码">
+                    <button slot="reference" class="gradient-btn">立即下载</button>
+                  </el-popover>
 
 
-                    </div>
                 </div>
               </div>
-
+            </div>
 
 
           </div>
@@ -68,93 +67,93 @@
       </div>
       <div class="section">
         <div class="section-page second-page">
-             <div class="page-center second-center">
-                  <div class="second-left fl">
-                       <h3>三甲医院轻松挂号</h3>
-                       <h4>医生号源 排班及时知</br>挂号缴费不排队</h4>
-                       <div class="second-icon">
-                            <span>
-                                 <img src="../assets/images/new/second-icon01.png">
-                                 <strong>挂号</strong>
-                            </span>
-                           <span>
-                                 <img src="../assets/images/new/second-icon02.png">
-                                 <strong>排队候诊</strong>
-                            </span>
-                           <span>
-                                 <img src="../assets/images/new/second-icon03.png">
-                                 <strong>门诊缴费</strong>
-                            </span>
-                       </div>
-                  </div>
-                  <div class="second-right fr">
-                      <img src="../assets/images/new/second-img01.png">
-                  </div>
-             </div>
+          <div class="page-center second-center">
+            <div class="second-left fl">
+              <h3>三甲医院轻松挂号</h3>
+              <h4>医生号源 排班及时知<br>挂号缴费不排队</h4>
+              <div class="second-icon">
+                <span>
+                  <img src="../assets/images/new/second-icon01.png">
+                  <strong>挂号</strong>
+                </span>
+                <span>
+                  <img src="../assets/images/new/second-icon02.png">
+                  <strong>排队候诊</strong>
+                </span>
+                <span>
+                  <img src="../assets/images/new/second-icon03.png">
+                  <strong>门诊缴费</strong>
+                </span>
+              </div>
+            </div>
+            <div class="second-right fr">
+              <img src="../assets/images/new/second-img01.png">
+            </div>
+          </div>
         </div>
       </div>
       <div class="section">
-          <div class="section-page third-page">
-              <div class="page-center third-center">
-                  <div class="third-top">
-                      <div class="third-top-left fl">
-                          <img src="../assets/images/new/third-img01.png">
-                      </div>
-                      <div class="third-top-right fr vertical-center">
-                          <h3>就医报告实时知</h3>
-                          <h4>检查检验报告手机轻松查</h4>
-                      </div>
-                  </div>
-                  <div class="third-bottom">
-                      <div class="third-bottom-right fr">
-                          <img src="../assets/images/new/third-img02.png">
-                      </div>
-                      <div class="third-bottom-left fl vertical-center">
-                          <h3>医保就医超方便</h3>
-                          <h4>三步绑卡 立查医保个账余额<br>医保便捷支付挂号、门诊费用</h4>
-                      </div>
-                  </div>
+        <div class="section-page third-page">
+          <div class="page-center third-center">
+            <div class="third-top">
+              <div class="third-top-left fl">
+                <img src="../assets/images/new/third-img01.png">
               </div>
+              <div class="third-top-right fr vertical-center">
+                <h3>就医报告实时知</h3>
+                <h4>检查检验报告手机轻松查</h4>
+              </div>
+            </div>
+            <div class="third-bottom">
+              <div class="third-bottom-right fr">
+                <img src="../assets/images/new/third-img02.png">
+              </div>
+              <div class="third-bottom-left fl vertical-center">
+                <h3>医保就医超方便</h3>
+                <h4>三步绑卡 立查医保个账余额<br>医保便捷支付挂号、门诊费用</h4>
+              </div>
+            </div>
           </div>
+        </div>
       </div>
-        <div class="section">
-            <div class="section-page four-page">
-                <div class="page-center four-center">
-                    <div class="four-top">
-                        <div class="four-top-left fl">
-                            <img src="../assets/images/new/four-img01.png">
-                        </div>
-                        <div class="four-top-right fr vertical-center">
-                            <h3>家庭健康管理</h3>
-                            <h4>爱人／子女／父母健康轻松管理<br>健康档案，就医记录复查不怕忘</h4>
-                        </div>
-                    </div>
-                    <div class="four-bottom">
-                        <div class="four-bottom-right fr">
-                            <img src="../assets/images/new/four-img02.png">
-                        </div>
-                        <div class="four-bottom-left fl vertical-center">
-                            <h3>幸孕时光超轻松</h3>
-                            <h4>随时随地产科建档，产检挂号快人一步</h4>
-                            <div class="four-icon">
+      <div class="section">
+        <div class="section-page four-page">
+          <div class="page-center four-center">
+            <div class="four-top">
+              <div class="four-top-left fl">
+                <img src="../assets/images/new/four-img01.png">
+              </div>
+              <div class="four-top-right fr vertical-center">
+                <h3>家庭健康管理</h3>
+                <h4>爱人／子女／父母健康轻松管理<br>健康档案，就医记录复查不怕忘</h4>
+              </div>
+            </div>
+            <div class="four-bottom">
+              <div class="four-bottom-right fr">
+                <img src="../assets/images/new/four-img02.png">
+              </div>
+              <div class="four-bottom-left fl vertical-center">
+                <h3>幸孕时光超轻松</h3>
+                <h4>随时随地产科建档，产检挂号快人一步</h4>
+                <div class="four-icon">
                                 <span>
                                      <img src="../assets/images/new/four-icon01.png">
                                      <strong>产科挂号</strong>
                                 </span>
-                                    <span>
+                  <span>
                                      <img src="../assets/images/new/four-icon02.png">
                                      <strong>诊间取号</strong>
                                 </span>
-                                    <span>
+                  <span>
                                      <img src="../assets/images/new/four-icon03.png">
                                      <strong>诊间取号</strong>
                                 </span>
-                            </div>
-                        </div>
-                    </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
       <div class="section fp-auto-height">
         <div class="advantage">
           <h1>医程通优势</h1>
@@ -170,7 +169,8 @@
                   <el-row class="slide-container">
                     <el-col :xs="24" :sm="12" class="slide-container-content">
                       <h1>创新产品体系</h1>
-                      <p>阳光康众与医院开展深度合作，打通就医全流程，通过手机即可完成门诊、住院、医保等传统线下就医全流程，方便患者到医院就医，功能包括当天挂号、预约挂号、医保支付、排队候诊、门诊缴费、报告查询、住院押金、住院清单、院内导航等。广州地区医保就医率先全面打通，手机在线绑定社保卡余额查询，实现医保个账在线支付。</p>
+                      <p>
+                        阳光康众与医院开展深度合作，打通就医全流程，通过手机即可完成门诊、住院、医保等传统线下就医全流程，方便患者到医院就医，功能包括当天挂号、预约挂号、医保支付、排队候诊、门诊缴费、报告查询、住院押金、住院清单、院内导航等。广州地区医保就医率先全面打通，手机在线绑定社保卡余额查询，实现医保个账在线支付。</p>
                     </el-col>
                     <el-col :xs="0" :sm="12">
                       <img src="../assets/images/home/system.png" alt="医程通创新产品体系">
@@ -181,7 +181,8 @@
                   <el-row class="slide-container slide-second">
                     <el-col :xs="24" :sm="12" class="slide-container-content">
                       <h1>携手中国银联</h1>
-                      <p>2015 年 4 月，阳光康众携手中国银联共同推出医程通产品，并在 2016 年 8 月成功升级为医程通 APP 3.0，合作区域遍及广东、山东、海南、安徽、河北、湖南等地，一举使当地市民就医进入指尖医院时代，医程通打通就医全流程，银联卡在手即可轻松就医，大大降低了患者看病时的时间成本和精力成本，也为医患关系的和谐共处营造温床。</p>
+                      <p>2015 年 4 月，阳光康众携手中国银联共同推出医程通产品，并在 2016 年 8 月成功升级为医程通 APP
+                        3.0，合作区域遍及广东、山东、海南、安徽、河北、湖南等地，一举使当地市民就医进入指尖医院时代，医程通打通就医全流程，银联卡在手即可轻松就医，大大降低了患者看病时的时间成本和精力成本，也为医患关系的和谐共处营造温床。</p>
                     </el-col>
                     <el-col :xs="0" :sm="12">
                       <img src="../assets/images/home/unionpay.png" alt="中国银联 医程通">
@@ -192,11 +193,15 @@
                   <h2>三甲医院强势入驻</h2>
                   <p class="hospital-list-desc">面对医院，提供创新性信息化建设方案和推广服务，助力医院提高运营效率，并打造互联网分级诊疗平台，实现医联体内诊疗信息互联互通。</p>
                   <p class="hospital-list-subtitle">合作医院</p>
-                  <swiper :options="{ pagination: { el: '.swiper-pagination', clickable: true, bulletClass: 'home-bullet', bulletActiveClass: 'home-bullet-active' } }">
+                  <swiper
+                      :options="{ pagination: { el: '.swiper-pagination', clickable: true, bulletClass: 'home-bullet', bulletActiveClass: 'home-bullet-active' } }">
                     <swiper-slide class="hospital-swiper" v-for="(hospitals, index) in hospitalChunks" :key="index">
                       <el-row>
-                        <el-col :xs="12" :sm="8" :md="6" class="hospital-item" v-for="(hospital, key) in hospitals" :key="key">
-                          <img :src="hospital.LOGO_PATH !== '' ? `https://yctimg.968309.net/pic/${hospital.LOGO_PATH}` : `${baseUrl}${hospital.LOCAL_PATH}`" :alt="hospital.NAME">
+                        <el-col :xs="12" :sm="8" :md="6" class="hospital-item" v-for="(hospital, key) in hospitals"
+                                :key="key">
+                          <img
+                              :src="hospital.LOGO_PATH !== '' ? `https://yctimg.968309.net/pic/${hospital.LOGO_PATH}` : `${baseUrl}${hospital.LOCAL_PATH}`"
+                              :alt="hospital.NAME">
                           <p>{{ hospital.NAME }}</p>
                         </el-col>
                       </el-row>
@@ -304,9 +309,6 @@ export default {
       return newArr;
     }
   },
-  mounted() {
-    console.log(hospitals);
-  },
   computed: {
     hospitalChunks() {
       return this.arrayChunk(this.hospitals, 12);
@@ -317,9 +319,13 @@ export default {
       this.slideTo(val);
     }
   },
-  deactivated() {
-    this.$refs.fullPage.api.destroy("all");
-  },
+  // activated() {
+  //   // console.log(this.$refs.fullPage.build);
+  //   this.$refs.fullPage.api.reBuild();
+  // },
+  // deactivated() {
+  //   this.$refs.fullPage.api.destroy("all");
+  // },
   components: {
     swiper,
     swiperSlide,
@@ -328,7 +334,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 @import "~swiper/dist/css/swiper.css";
 @import "../assets/style/media-queries";
 @import "../assets/style/theme";
@@ -348,7 +354,8 @@ export default {
   }
 }
 
-.home .section-page,.section-page * {
+.home .section-page,
+.section-page * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -356,10 +363,10 @@ export default {
 
 .home {
   height: 100%;
-    .section-page {
-        height: 100%;
-        padding-top:70px;
-    }
+  .section-page {
+    height: 100%;
+    padding-top: 70px;
+  }
   .first-section {
     height: calc(100% - 80px);
     box-sizing: border-box;
@@ -382,11 +389,9 @@ export default {
       @include adaptive630 {
         padding: 30px 0;
       }
-        @include adaptiveWidth1440 {
-            max-width: 750px;
-        }
-
-
+      @include adaptiveWidth1440 {
+        max-width: 750px;
+      }
 
       img {
         transform: translate3d(0, -50%, 0);
@@ -401,9 +406,9 @@ export default {
       position: relative;
       top: 50%;
       width: 502px;
-        @include adaptiveWidth1440 {
-            margin-right: 20px;
-        }
+      @include adaptiveWidth1440 {
+        margin-right: 20px;
+      }
       h3,
       h4 {
         margin: 0;
@@ -523,256 +528,318 @@ export default {
 }
 
 .page-center {
-    width: 1180px;
-    margin: 0 auto;
-    height: 100%;
+  width: 1180px;
+  margin: 0 auto;
+  height: 100%;
 }
+
 .vertical-center {
-    -webkit-transform: translate3d(0, -50%, 0);
-    transform: translate3d(0, -50%, 0);
-    position: relative;
-    top: 50%;
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+  position: relative;
+  top: 50%;
 }
 
 .second-page {
-    p,h3,h4 { margin:0; padding:0}
-    .second-center {
-        padding:30px 0;
-        padding-top: 50px;
-        @include adaptive690 {
-            width: 1080px;
-        }
-
+  p,
+  h3,
+  h4 {
+    margin: 0;
+    padding: 0;
+  }
+  .second-center {
+    padding: 30px 0;
+    padding-top: 50px;
+    @include adaptive690 {
+      width: 1080px;
     }
-    .second-left {
-        -webkit-transform: translate3d(0, -50%, 0);
-        transform: translate3d(0, -50%, 0);
-        position: relative;
-        top: 48%;
-        img { max-height: 100%; }
-        h3 {
-             font-size: 54px;color: #424242; padding-bottom: 15px; font-weight: normal;
-            @include adaptive630 {
-                font-size: 48px;
-            }
-        }
-        h4 { font-size: 24px; color: #9c9c9c; line-height: 1.3; font-weight: normal;
-            @include adaptive630 {
-                font-size: 20px;
-                line-height: 1.4;
-            }
-        }
-        .second-icon {
-            margin-top: 65px;
-            color: #4a515f;
-            font-size: 16px;
-
-            span { display: inline-block; margin-right: 60px;  }
-            strong {font-size: 16px; display: block;text-align: center; color: #4a515f; padding-top:8px; font-weight: normal;
-                @include adaptive630 {
-                    font-size: 14px;
-                }
-            }
-            img {
-                @include adaptive630 {
-                    height: 80px;
-                }
-            }
-        }
+  }
+  .second-left {
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+    position: relative;
+    top: 48%;
+    img {
+      max-height: 100%;
     }
-
-    .second-right {
-        height: 100%;
-        img { max-height: 100%; }
+    h3 {
+      font-size: 54px;
+      color: #424242;
+      padding-bottom: 15px;
+      font-weight: normal;
+      @include adaptive630 {
+        font-size: 48px;
+      }
     }
+    h4 {
+      font-size: 24px;
+      color: #9c9c9c;
+      line-height: 1.3;
+      font-weight: normal;
+      @include adaptive630 {
+        font-size: 20px;
+        line-height: 1.4;
+      }
+    }
+    .second-icon {
+      margin-top: 65px;
+      color: #4a515f;
+      font-size: 16px;
+
+      span {
+        display: inline-block;
+        margin-right: 60px;
+      }
+      strong {
+        font-size: 16px;
+        display: block;
+        text-align: center;
+        color: #4a515f;
+        padding-top: 8px;
+        font-weight: normal;
+        @include adaptive630 {
+          font-size: 14px;
+        }
+      }
+      img {
+        @include adaptive630 {
+          height: 80px;
+        }
+      }
+    }
+  }
+
+  .second-right {
+    height: 100%;
+    img {
+      max-height: 100%;
+    }
+  }
 }
 
 .third-page {
-    p,h3,h4 { margin:0; padding:0}
-    img { max-height: 100%; }
-    h3 {
-        font-size: 54px;color: #424242; padding-bottom: 15px; font-weight: normal;
+  p,
+  h3,
+  h4 {
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    max-height: 100%;
+  }
+  h3 {
+    font-size: 54px;
+    color: #424242;
+    padding-bottom: 15px;
+    font-weight: normal;
 
-        @include adaptive720 {
-            font-size: 50px;
-        }
-        @include adaptive690 {
-            font-size: 48px;
-        }
-        @include adaptive630 {
-            font-size: 44px;
-        }
+    @include adaptive720 {
+      font-size: 50px;
     }
-    h4 { font-size: 24px; color: #9c9c9c; line-height: 1.3; font-weight: normal;
-        @include adaptive720 {
-            font-size: 22px;
-        }
-        @include adaptive720 {
-            font-size: 22px;
-        }
-        @include adaptive630 {
-            font-size: 18px;
-            line-height: 1.4;
-        }
+    @include adaptive690 {
+      font-size: 48px;
     }
-    .third-center {
-        width: 1080px;
-        padding:30px 0;
-        padding-top: 50px;
-        @include adaptive720 {
-            width: 980px;
-        }
-        @include adaptive690 {
-            padding:20px 0;
-        }
-        @include adaptive630 {
-            width: 900px;
-        }
-
+    @include adaptive630 {
+      font-size: 44px;
     }
-    .third-top,.third-bottom {
-        display: inline-block; width: 100%; height: 50%;
-        @include adaptive630 {
-            height: 52%;
-        }
+  }
+  h4 {
+    font-size: 24px;
+    color: #9c9c9c;
+    line-height: 1.3;
+    font-weight: normal;
+    @include adaptive720 {
+      font-size: 22px;
     }
-    .third-bottom {
-        @include adaptive630 {
-            position: relative;
-            top: -4%;
-        }
+    @include adaptive720 {
+      font-size: 22px;
     }
-    .third-top-left {
-        height: 100%;
+    @include adaptive630 {
+      font-size: 18px;
+      line-height: 1.4;
     }
-    .third-bottom-right {
-        height: 100%;
+  }
+  .third-center {
+    width: 1080px;
+    padding: 30px 0;
+    padding-top: 50px;
+    @include adaptive720 {
+      width: 980px;
     }
-
+    @include adaptive690 {
+      padding: 20px 0;
+    }
+    @include adaptive630 {
+      width: 900px;
+    }
+  }
+  .third-top,
+  .third-bottom {
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+    @include adaptive630 {
+      height: 52%;
+    }
+  }
+  .third-bottom {
+    @include adaptive630 {
+      position: relative;
+      top: -4%;
+    }
+  }
+  .third-top-left {
+    height: 100%;
+  }
+  .third-bottom-right {
+    height: 100%;
+  }
 }
 
 .four-page {
-    p,h3,h4 { margin:0; padding:0}
-    img { max-height: 100%; }
-    h3 {
-        font-size: 50px;color: #424242; padding-bottom: 10px; font-weight: normal;
+  p,
+  h3,
+  h4 {
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    max-height: 100%;
+  }
+  h3 {
+    font-size: 50px;
+    color: #424242;
+    padding-bottom: 10px;
+    font-weight: normal;
 
-        @include adaptive720 {
-            font-size: 50px;
-        }
-        @include adaptive690 {
-            font-size: 48px;
-        }
-        @include adaptive660 {
-            font-size: 46px;
-            padding-bottom: 6px;
-        }
-        @include adaptive600 {
-            font-size: 42px;
-        }
+    @include adaptive720 {
+      font-size: 50px;
     }
-    h4 { font-size: 24px; color: #9c9c9c; line-height: 1.3; font-weight: normal;
-        @include adaptive720 {
-            font-size: 22px;
-        }
-        @include adaptive690 {
-            font-size: 20px;
-            line-height: 1.4;
-        }
-        @include adaptive660 {
-            font-size: 18px;
-            line-height: 1.3;
-        }
-        @include adaptive600 {
-            font-size: 16px;
-        }
+    @include adaptive690 {
+      font-size: 48px;
     }
-    .four-center {
-        width: 1080px;
-        padding:30px 0;
-        @include adaptive720 {
-            width: 980px;
-        }
-        @include adaptive690 {
-            padding:20px 0;
-        }
-        @include adaptive630 {
-            width: 900px;
-        }
-
+    @include adaptive660 {
+      font-size: 46px;
+      padding-bottom: 6px;
     }
-    .four-top,.four-bottom {
-        display: inline-block; width: 100%; height: 50%;
-        @include adaptive600 {
-            height: 52%;
-        }
+    @include adaptive600 {
+      font-size: 42px;
     }
-    .four-bottom{
-        @include adaptive600 {
-            position: relative;
-            top: -4%;
-        }
+  }
+  h4 {
+    font-size: 24px;
+    color: #9c9c9c;
+    line-height: 1.3;
+    font-weight: normal;
+    @include adaptive720 {
+      font-size: 22px;
     }
-    .four-top-left {
-        height: 100%;
+    @include adaptive690 {
+      font-size: 20px;
+      line-height: 1.4;
     }
-    .four-bottom-right {
-        height: 100%;
+    @include adaptive660 {
+      font-size: 18px;
+      line-height: 1.3;
     }
-    .four-icon {
-        margin-top: 20px;
-        color: #4a515f;
-        font-size: 16px;
-        @include adaptive630 {
-            margin-top: 14px;
-        }
-
-        span { display: inline-block; margin-right: 40px;  }
-        strong {font-size: 16px; display: block;text-align: center; color: #4a515f; padding-top:8px; font-weight: normal;
-            @include adaptive630 {
-                font-size: 14px;
-            }
-        }
-        img {
-            @include adaptive720 {
-                height: 80px;
-            }
-            @include adaptive660 {
-                height: 72px;
-            }
-            @include adaptive600 {
-                height: 60px;
-            }
-        }
+    @include adaptive600 {
+      font-size: 16px;
+    }
+  }
+  .four-center {
+    width: 1080px;
+    padding: 30px 0;
+    @include adaptive720 {
+      width: 980px;
+    }
+    @include adaptive690 {
+      padding: 20px 0;
+    }
+    @include adaptive630 {
+      width: 900px;
+    }
+  }
+  .four-top,
+  .four-bottom {
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+    @include adaptive600 {
+      height: 52%;
+    }
+  }
+  .four-bottom {
+    @include adaptive600 {
+      position: relative;
+      top: -4%;
+    }
+  }
+  .four-top-left {
+    height: 100%;
+  }
+  .four-bottom-right {
+    height: 100%;
+  }
+  .four-icon {
+    margin-top: 20px;
+    color: #4a515f;
+    font-size: 16px;
+    @include adaptive630 {
+      margin-top: 14px;
     }
 
+    span {
+      display: inline-block;
+      margin-right: 40px;
+    }
+    strong {
+      font-size: 16px;
+      display: block;
+      text-align: center;
+      color: #4a515f;
+      padding-top: 8px;
+      font-weight: normal;
+      @include adaptive630 {
+        font-size: 14px;
+      }
+    }
+    img {
+      @include adaptive720 {
+        height: 80px;
+      }
+      @include adaptive660 {
+        height: 72px;
+      }
+      @include adaptive600 {
+        height: 60px;
+      }
+    }
+  }
 }
 
 .first-center {
   width: 1380px;
   margin: 0 auto;
   height: 100%;
-    @include adaptiveWidth1440 {
-        width: 1300px;
-    }
+  @include adaptiveWidth1440 {
+    width: 1300px;
+  }
   @include adaptive690 {
     width: 1280px;
   }
   @include adaptive630 {
     width: 1200px;
   }
-
-
-
 }
-
 
 .fl {
   float: left;
 }
+
 .fr {
   float: right;
 }
+
 .advantage {
   padding-top: 70px;
 
@@ -782,8 +849,8 @@ export default {
 
   h1 {
     text-align: center;
-      margin-bottom: 10px;
-      margin-top: 35px;
+    margin-bottom: 10px;
+    margin-top: 35px;
   }
 }
 
@@ -805,6 +872,7 @@ export default {
     width: 100%;
   }
 }
+
 .gradient-btn {
   color: #fff;
   width: 226px;
@@ -816,9 +884,11 @@ export default {
   box-shadow: 0 5px 10px -4px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
+
 .myContent {
   height: 300px;
 }
+
 .swiper-tabs {
   width: 100%;
   display: flex;
@@ -884,12 +954,13 @@ export default {
 }
 
 .slide-second {
-    margin-top: 90px;
-    margin-bottom: 90px;
-    @include mobile {
-        margin: 30px;
-    }
+  margin-top: 90px;
+  margin-bottom: 90px;
+  @include mobile {
+    margin: 30px;
+  }
 }
+
 .hospital-list {
   h2 {
     text-align: left;
@@ -915,6 +986,7 @@ export default {
 .hospital-swiper {
   padding: 30px 0;
 }
+
 .hospital-item {
   display: flex;
   align-items: center;
@@ -959,6 +1031,7 @@ export default {
     }
   }
 }
+
 .customer-service {
   position: absolute;
   right: 20px;
@@ -971,160 +1044,282 @@ export default {
     color: $primary-color;
   }
 }
+
 .home-footer {
   padding: 30px 0;
 }
+
 .my-popper {
   min-width: 100px !important;
 }
 
-
 /* animation */
 /* first-page */
-.first-right h3,.first-right h4,.first-left,.first-list,.btn-download  {
-    transition: all 0.6s ease-in-out;
+.first-right h3,
+.first-right h4,
+.first-left,
+.first-list,
+.btn-download {
+  transition: all 0.6s ease-in-out;
 }
-.first-right h3,.first-right h4,.first-list,.btn-download{
-    opacity: 0;
-    transform: translate3d(0,40px,0);
+
+.first-right h3,
+.first-right h4,
+.first-list,
+.btn-download {
+  opacity: 0;
+  transform: translate3d(0, 40px, 0);
 }
-.section.active .first-right h3,.section.active .first-right h4 ,.section.active .first-list,.section.active .btn-download{
-    opacity: 1;
-    transform: translate3d(0,0,0);
+
+.section.active .first-right h3,
+.section.active .first-right h4,
+.section.active .first-list,
+.section.active .btn-download {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
 }
-.first-right h4 { transition-delay: 0.3s; }
-.first-list { transition-delay: 0.6s; }
-.btn-download { transition-delay: 0.9s; }
-.first-left  { opacity: 0; transform:scale3d(0.8,0.8,1);  }
-.section.active .first-left   { opacity: 1; transform:scale3d(1,1,1);  }
-.first-left { transition-delay: 0.3s; }
+
+.first-right h4 {
+  transition-delay: 0.3s;
+}
+
+.first-list {
+  transition-delay: 0.6s;
+}
+
+.btn-download {
+  transition-delay: 0.9s;
+}
+
+.first-left {
+  opacity: 0;
+  transform: scale3d(0.8, 0.8, 1);
+}
+
+.section.active .first-left {
+  opacity: 1;
+  transform: scale3d(1, 1, 1);
+}
+
+.first-left {
+  transition-delay: 0.3s;
+}
 
 /* second-page */
-.second-left h3,.second-left h4,.second-icon span,.second-right  {
-    transition: all 0.6s 0.3s ease-in-out;
+.second-left h3,
+.second-left h4,
+.second-icon span,
+.second-right {
+  transition: all 0.6s 0.3s ease-in-out;
 }
-.second-left h3,.second-left h4 {
-    opacity: 0;
-    transform: translate3d(0,40px,0);
+
+.second-left h3,
+.second-left h4 {
+  opacity: 0;
+  transform: translate3d(0, 40px, 0);
 }
-.section.active .second-left h3,.section.active .second-left h4{
-    opacity: 1;
-    transform: translate3d(0,0,0);
+
+.section.active .second-left h3,
+.section.active .second-left h4 {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
 }
-.second-left h4{ transition-delay: 0.6s; }
-.second-right  {
-    opacity: 0;
-    transform: translate3d(100px,0,0);
+
+.second-left h4 {
+  transition-delay: 0.6s;
 }
-.section.active .second-right  {
-    opacity: 1;
-    transform: translate3d(0,0,0);
+
+.second-right {
+  opacity: 0;
+  transform: translate3d(100px, 0, 0);
 }
-.second-right { transition-delay: 0.6s; }
-    .second-icon span {
-        opacity: 0;
-        transform: translate3d(-50px,0,0);
-    }
+
+.section.active .second-right {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.second-right {
+  transition-delay: 0.6s;
+}
+
+.second-icon span {
+  opacity: 0;
+  transform: translate3d(-50px, 0, 0);
+}
+
 .section.active .second-icon span {
-    opacity: 1;
-    transform: translate3d(0,0,0);
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
 }
-.section.active .second-icon span:nth-child(1) {  transition-delay: 0.8s;}
-.section.active .second-icon span:nth-child(2) {  transition-delay: 1s;}
-.section.active .second-icon span:nth-child(3) {  transition-delay: 1.2s;}
+
+.section.active .second-icon span:nth-child(1) {
+  transition-delay: 0.8s;
+}
+
+.section.active .second-icon span:nth-child(2) {
+  transition-delay: 1s;
+}
+
+.section.active .second-icon span:nth-child(3) {
+  transition-delay: 1.2s;
+}
 
 /* third-page */
-.third-page h3,.third-page h4,.third-top-left,.third-bottom-right {
-    transition: all 0.6s 0.3s ease-in-out;
-}
-.third-page h3,.third-page h4 {
-    opacity: 0;
-    transform: translate3d(-40px,0,0);
-}
-.third-top-right h3,.third-top-right h4 {
-    transform: translate3d(40px,0,0);
-}
-
-
-.section.active .third-page h3,.section.active .third-page h4 {
-    opacity: 1;
-    transform: translate3d(0,0,0);
-}
-.third-page h4{ transition-delay: 0.6s; }
-
-    .third-top-left {
-        opacity: 0;
-        transform: translate3d(0px,-60px,0);
-    }
+.third-page h3,
+.third-page h4,
+.third-top-left,
 .third-bottom-right {
-    opacity: 0;
-    transform: translate3d(0px,60px,0);
+  transition: all 0.6s 0.3s ease-in-out;
 }
-.section.active .third-top-left,.section.active .third-bottom-right {
-    opacity: 1;
-    transform: translate3d(0,0,0);
+
+.third-page h3,
+.third-page h4 {
+  opacity: 0;
+  transform: translate3d(-40px, 0, 0);
 }
-.third-top-left,.third-bottom-right { transition-delay: 0.6s; }
+
+.third-top-right h3,
+.third-top-right h4 {
+  transform: translate3d(40px, 0, 0);
+}
+
+.section.active .third-page h3,
+.section.active .third-page h4 {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.third-page h4 {
+  transition-delay: 0.6s;
+}
+
+.third-top-left {
+  opacity: 0;
+  transform: translate3d(0px, -60px, 0);
+}
+
+.third-bottom-right {
+  opacity: 0;
+  transform: translate3d(0px, 60px, 0);
+}
+
+.section.active .third-top-left,
+.section.active .third-bottom-right {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.third-top-left,
+.third-bottom-right {
+  transition-delay: 0.6s;
+}
 
 /* four-page */
-.four-page h3,.four-page h4,.four-top-left,.four-bottom-right,.four-icon span {
-    transition: all 0.6s 0.3s ease-in-out;
-}
-.four-page h3,.four-page h4 {
-    opacity: 0;
-    transform: translate3d(-40px,0,0);
-}
-.four-top-right h3,.four-top-right h4 {
-    transform: translate3d(40px,0,0);
+.four-page h3,
+.four-page h4,
+.four-top-left,
+.four-bottom-right,
+.four-icon span {
+  transition: all 0.6s 0.3s ease-in-out;
 }
 
-
-.section.active .four-page h3,.section.active .four-page h4 {
-    opacity: 1;
-    transform: translate3d(0,0,0);
+.four-page h3,
+.four-page h4 {
+  opacity: 0;
+  transform: translate3d(-40px, 0, 0);
 }
-.four-page h4{ transition-delay: 0.6s; }
+
+.four-top-right h3,
+.four-top-right h4 {
+  transform: translate3d(40px, 0, 0);
+}
+
+.section.active .four-page h3,
+.section.active .four-page h4 {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.four-page h4 {
+  transition-delay: 0.6s;
+}
 
 .four-top-left {
-    opacity: 0;
-    transform: translate3d(-60px,0,0);
+  opacity: 0;
+  transform: translate3d(-60px, 0, 0);
 }
+
 .four-bottom-right {
-    opacity: 0;
-    transform: translate3d(60px,0,0);
+  opacity: 0;
+  transform: translate3d(60px, 0, 0);
 }
-.section.active .four-top-left,.section.active .four-bottom-right {
-    opacity: 1;
-    transform: translate3d(0,0,0);
+
+.section.active .four-top-left,
+.section.active .four-bottom-right {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
 }
-.third-top-left,.four-bottom-right { transition-delay: 0.6s; }
+
+.third-top-left,
+.four-bottom-right {
+  transition-delay: 0.6s;
+}
 
 .four-icon span {
-    opacity: 0;
-    transform: translate3d(0,40px,0);
+  opacity: 0;
+  transform: translate3d(0, 40px, 0);
 }
+
 .section.active .four-icon span {
-    opacity: 1;
-    transform: translate3d(0,0,0);
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
 }
-.section.active .four-icon span:nth-child(1) {  transition-delay: 0.8s;}
-.section.active .four-icon span:nth-child(2) {  transition-delay: 1s;}
-.section.active .four-icon span:nth-child(3) {  transition-delay: 1.2s;}
+
+.section.active .four-icon span:nth-child(1) {
+  transition-delay: 0.8s;
+}
+
+.section.active .four-icon span:nth-child(2) {
+  transition-delay: 1s;
+}
+
+.section.active .four-icon span:nth-child(3) {
+  transition-delay: 1.2s;
+}
 
 /* four-page */
-.advantage > h1,.advantage .swiper-tabs,.advantage .swiper-container {
-    transition: all 0.6s 0.3s ease-in-out;
+.advantage > h1,
+.advantage .swiper-tabs,
+.advantage .swiper-container {
+  transition: all 0.6s 0.3s ease-in-out;
 }
-.advantage .swiper-container { opacity: 0; }
-.advantage > h1,.advantage .swiper-tabs {
-    opacity: 0;
-    transform: translate3d(0,40px,0);
+
+.advantage .swiper-container {
+  opacity: 0;
 }
-.section.active .advantage > h1,.section.active .advantage .swiper-tabs {
-    opacity: 1;
-    transform: translate3d(0,0,0);
+
+.advantage > h1,
+.advantage .swiper-tabs {
+  opacity: 0;
+  transform: translate3d(0, 40px, 0);
 }
-.section.active  .advantage .swiper-container { opacity: 1; }
-.advantage .swiper-tabs {  transition-delay: 0.6s;}
-.advantage .swiper-container  {  transition-delay: 0.9s;}
+
+.section.active .advantage > h1,
+.section.active .advantage .swiper-tabs {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.section.active .advantage .swiper-container {
+  opacity: 1;
+}
+
+.advantage .swiper-tabs {
+  transition-delay: 0.6s;
+}
+
+.advantage .swiper-container {
+  transition-delay: 0.9s;
+}
 </style>

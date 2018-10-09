@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home.vue";
+import Home from "./views/Index.vue";
 
 Vue.use(Router);
 
@@ -37,11 +37,6 @@ export default new Router({
       path: "/",
       name: "home",
       component: Home
-    },
-    {
-      path: "/home",
-      name: "index",
-      component: () => import("./views/Index.vue")
     },
     {
       path: "/join",
