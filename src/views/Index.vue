@@ -274,6 +274,7 @@ export default {
       contactVisible: false,
       activeName: "second",
       swiperCurIndex: 0,
+      viewCounter: 0,
       options: {
         licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
         scrollBar: false,
@@ -325,13 +326,24 @@ export default {
       this.slideTo(val);
     }
   },
-  // activated() {
-  //   // console.log(this.$refs.fullPage.build);
-  //   this.$refs.fullPage.api.reBuild();
-  // },
-  // deactivated() {
-  //   this.$refs.fullPage.api.destroy("all");
-  // },
+  activated() {
+    // console.log(this.$refs.fullPage.build);
+    try {
+      if (this.viewCounter > 0) {
+        console.log("weofij");
+        this.$refs.fullPage.destroy();
+      }
+    } catch (e) {
+      console.log(e);
+    }
+    // this.$refs.fullPage.api.destroy("all");
+    this.viewCounter && this.$refs.fullPage.init();
+    this.viewCounter++;
+    // this.$refs.fullPage.api.reBuild();
+  },
+  deactivated() {
+    this.$refs.fullPage.destroy();
+  },
   components: {
     swiper,
     swiperSlide,
