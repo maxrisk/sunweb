@@ -29,20 +29,20 @@
                             <strong>报告查询</strong>
                          </span>
                   <span>
-                            <img src="../assets/images/new/first-icon01.png">
-                            <strong>挂号</strong>
+                            <img src="../assets/images/new/first-icon05.png">
+                            <strong>住院押金</strong>
                          </span>
                   <span>
-                            <img src="../assets/images/new/first-icon02.png">
-                            <strong>排队候诊</strong>
+                            <img src="../assets/images/new/first-icon06.png">
+                            <strong>住院清单</strong>
                          </span>
                   <span>
-                            <img src="../assets/images/new/first-icon03.png">
-                            <strong>门诊缴费</strong>
+                            <img src="../assets/images/new/first-icon07.png">
+                            <strong>诊间取号</strong>
                          </span>
                   <span>
-                            <img src="../assets/images/new/first-icon04.png">
-                            <strong>报告查询</strong>
+                            <img src="../assets/images/new/first-icon08.png">
+                            <strong>更多</strong>
                          </span>
                 </div>
                 <div class="btn-download">
@@ -330,7 +330,6 @@ export default {
     // console.log(this.$refs.fullPage.build);
     try {
       if (this.viewCounter > 0) {
-        console.log("weofij");
         this.$refs.fullPage.destroy();
       }
     } catch (e) {
@@ -566,10 +565,17 @@ export default {
     padding: 0;
   }
   .second-center {
-    padding: 30px 0;
-    padding-top: 50px;
-    @include adaptive690 {
+    width: 1080px;
+    padding: 50px 0 30px;
+    @include adaptive720 {
       width: 1080px;
+    }
+    @include adaptive690 {
+      width: 980px;
+      padding: 20px 0;
+    }
+    @include adaptive630 {
+      width: 900px;
     }
   }
   .second-left {
@@ -682,13 +688,14 @@ export default {
     padding: 30px 0;
     padding-top: 50px;
     @include adaptive720 {
-      width: 980px;
+      width: 760px;
     }
     @include adaptive690 {
+      width: 750px;
       padding: 20px 0;
     }
     @include adaptive630 {
-      width: 900px;
+      width: 700px;
     }
   }
   .third-top,
@@ -768,13 +775,14 @@ export default {
     width: 1080px;
     padding: 30px 0;
     @include adaptive720 {
-      width: 980px;
+      width: 760px;
     }
     @include adaptive690 {
+      width: 750px;
       padding: 20px 0;
     }
     @include adaptive630 {
-      width: 900px;
+      width: 700px;
     }
   }
   .four-top,
@@ -842,11 +850,11 @@ export default {
   @include adaptiveWidth1440 {
     width: 1300px;
   }
-  @include adaptive690 {
-    width: 1280px;
+  @include adaptive750 {
+    width: 1200px;
   }
   @include adaptive630 {
-    width: 1200px;
+    width: 1100px;
   }
 }
 
@@ -1068,7 +1076,7 @@ export default {
 }
 
 .my-popper {
-  min-width: 100px !important;
+  min-width: 90px !important;
 }
 
 /* animation */

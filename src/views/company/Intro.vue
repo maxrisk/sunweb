@@ -218,4 +218,8 @@ export default {
   color: #313131;
   margin: 0;
 }
+
+.history-hainan p {
+  padding-left: 270px;
+}
 </style>

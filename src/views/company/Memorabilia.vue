@@ -6,9 +6,9 @@
         <div class="swiper-con">
           <swiper :options="swiperOption" class="year-swiper" ref="yearSwiper">
             <swiper-slide v-for="(item, key) in list" :key="item.year" class="year-swiper-item" @click.native="slideTo(key)">{{ item.year }}</swiper-slide>
-            <div class="swiper-button-prev" slot="button-prev"></div>
-            <div class="swiper-button-next" slot="button-next"></div>
           </swiper>
+          <div class="swiper-button-prev" slot="button-prev"></div>
+          <div class="swiper-button-next" slot="button-next"></div>
           <div class="break-line">
             <div class="dot"></div>
           </div>
@@ -44,7 +44,7 @@ export default {
           year: 2017,
           contents: [
             "2017年1月，阳光康众宣布于近日完成数千万元融资，投资方为复朴投资。",
-            "2017年3月，作为中国肿瘤防治联盟六大功能平台之一，由联盟和中国建设银行广东省分行共同支持，阳光康众旗下全资子公司广东易健通信息科技公司负责研发、联盟运营的移动MDT——“优康问癌”APP于2016年12月上线，并在此次年会上正式推出面世。",
+            "2017年3月，作为中国肿瘤防治联盟六大功能平台之一，由联盟和中国建设银行广东省分行共同支持，阳光康众旗下全资子公司广东易健通信息科技公司负责研发、联盟运营的移动MDT——“优康问癌”APP于2017年12月上线，并在此次年会上正式推出面世。",
             "2017年4月，银联医程通APP与保险公司合作，联合在全国率先推出挂号撤销险服务功能。"
           ]
         },
@@ -110,10 +110,8 @@ export default {
         slidesPerView: 5,
         centeredSlides: true,
         spaceBetween: 30,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev"
-        },
+        nextButton: ".swiper-button-next",
+        prevButton: ".swiper-button-prev",
         onSlideChangeEnd: this.handleSlideChange
       }
     };
@@ -154,9 +152,24 @@ export default {
 .swiper-con {
   padding: 0 120px;
   height: auto;
+  position: relative;
 
   @include mobile {
     padding: 0 50px;
+  }
+
+  .swiper-button-prev {
+    left: 70px;
+    padding-right: 10px;
+    transform: translateY(-5px);
+    background-image: url("../../assets/images/swiper-left.png");
+  }
+
+  .swiper-button-next {
+    right: 70px;
+    padding-left: 10px;
+    transform: translateY(-5px);
+    background-image: url("../../assets/images/swiper-right.png");
   }
 }
 
@@ -190,18 +203,6 @@ export default {
   .swiper-button-prev,
   .swiper-button-next {
     background-color: #fff;
-  }
-
-  .swiper-button-prev {
-    left: 0;
-    padding-right: 10px;
-    background-image: url("../../assets/images/swiper-left.png");
-  }
-
-  .swiper-button-next {
-    right: 0;
-    padding-left: 10px;
-    background-image: url("../../assets/images/swiper-right.png");
   }
 }
 .break-line {
