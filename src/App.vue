@@ -3,7 +3,36 @@
     <el-row class="nav pc-nav hidden-xs-only" type="flex" justify="center">
       <el-col :span="4">
         <router-link to="/" class="menu-item">
-          <img class="pc-nav-logo" src="./assets/images/logo.png" alt="医程通 LOGO">
+          <span class="icon-logo">
+            <span class="path1"></span>
+            <span class="path2"></span>
+            <span class="path3"></span>
+            <span class="path4"></span>
+            <span class="path5"></span>
+            <span class="path6"></span>
+            <span class="path7"></span>
+            <span class="path8"></span>
+            <span class="path9"></span>
+            <span class="path10"></span>
+            <span class="path11"></span>
+            <span class="path12"></span>
+            <span class="path13"></span>
+            <span class="path14"></span>
+            <span class="path15"></span>
+            <span class="path16"></span>
+            <span class="path17"></span>
+            <span class="path18"></span>
+            <span class="path19"></span>
+            <span class="path20"></span>
+            <span class="path21"></span>
+            <span class="path22"></span>
+            <span class="path23"></span>
+            <span class="path24"></span>
+          </span>
+          <div class="logo-text">
+            <span>医程通</span>
+            <span>您的健康好朋友</span>
+          </div>
         </router-link>
       </el-col>
       <el-col :span="12">
@@ -52,11 +81,6 @@ export default {
       let m = regex.exec(this.$route.path);
 
       return m !== null;
-    }
-  },
-  methods: {
-    test(str) {
-      console.log(str);
     }
   }
 };
@@ -107,6 +131,31 @@ a {
     color: #6a6a6a;
     padding: 0 45px;
     transition: color 0.25s;
+
+    & > span {
+      font-size: 46px;
+    }
+
+    .logo-text {
+      display: inline-block;
+      margin-left: 6px;
+      color: #484955;
+      transform: translateY(-3px);
+
+      span {
+        display: block;
+
+        &:first-child {
+          font-size: 18px;
+          font-weight: bold;
+          line-height: 1.5;
+        }
+
+        &:last-child {
+          font-size: 12px;
+        }
+      }
+    }
 
     .el-dropdown-link {
       font-size: 16px;

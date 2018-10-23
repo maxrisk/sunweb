@@ -3,7 +3,7 @@ import App from "./App.vue";
 import router from "./router";
 import "./assets/style/main.scss";
 import ElementUI from "element-ui";
-import VueFullPage from "vue-fullpage.js";
+import VueFullPage from "vue-fullpage.js/src/index";
 import VueScrollReveal from "vue-scroll-reveal";
 
 Vue.config.productionTip = false;

@@ -12,56 +12,63 @@
                 <h3><img src="../assets/images/new/first-tit01.png"></h3>
                 <h4><img src="../assets/images/new/first-tit02.png"></h4>
                 <div class="first-list">
-                        <span>
-                            <img src="../assets/images/new/first-icon01.png">
-                            <strong>挂号</strong>
-                         </span>
                   <span>
-                            <img src="../assets/images/new/first-icon02.png">
-                            <strong>排队候诊</strong>
-                         </span>
+                    <span class="icon-register"></span>
+                    <strong>挂号</strong>
+                  </span>
                   <span>
-                            <img src="../assets/images/new/first-icon03.png">
-                            <strong>门诊缴费</strong>
-                         </span>
+                    <span class="icon-line-up"></span>
+                    <strong>排队候诊</strong>
+                  </span>
                   <span>
-                            <img src="../assets/images/new/first-icon04.png">
-                            <strong>报告查询</strong>
-                         </span>
+                    <span class="icon-clinic">
+                      <span class="path1"></span>
+                      <span class="path2"></span>
+                      <span class="path3"></span>
+                    </span>
+                    <strong>门诊缴费</strong>
+                  </span>
                   <span>
-                            <img src="../assets/images/new/first-icon05.png">
-                            <strong>住院押金</strong>
-                         </span>
+                    <span class="icon-report">
+                      <span class="path1"></span>
+                      <span class="path2"></span>
+                      <span class="path3"></span>
+                      <span class="path4"></span>
+                      <span class="path5"></span>
+                    </span>
+                    <strong>报告查询</strong>
+                  </span>
                   <span>
-                            <img src="../assets/images/new/first-icon06.png">
-                            <strong>住院清单</strong>
-                         </span>
+                    <span class="icon-deposit"></span>
+                    <strong>住院押金</strong>
+                  </span>
                   <span>
-                            <img src="../assets/images/new/first-icon07.png">
-                            <strong>诊间取号</strong>
-                         </span>
+                    <span class="icon-list"></span>
+                    <strong>住院清单</strong>
+                  </span>
                   <span>
-                            <img src="../assets/images/new/first-icon08.png">
-                            <strong>更多</strong>
-                         </span>
+                    <span class="icon-take-no"></span>
+                    <strong>诊间取号</strong>
+                  </span>
+                  <span>
+                    <span class="icon-more"></span>
+                    <strong>更多</strong>
+                  </span>
                 </div>
                 <div class="btn-download">
 
                   <el-popover
                       placement="top"
                       width="180"
+                      :disabled="disabledPopover"
                       trigger="hover"
                       v-model="qrcodeVisible">
                     <img src="../assets/images/qrcode.png" width="180" alt="二维码">
-                    <button slot="reference" class="gradient-btn">立即下载</button>
+                    <button slot="reference" class="gradient-btn" @mouseenter="disabledPopover=false" @mouseleave="disabledPopover=true">立即下载</button>
                   </el-popover>
-
-
                 </div>
               </div>
             </div>
-
-
           </div>
         </div>
       </div>
@@ -136,18 +143,18 @@
                 <h3>幸孕时光超轻松</h3>
                 <h4>随时随地产科建档，产检挂号快人一步</h4>
                 <div class="four-icon">
-                                <span>
-                                     <img src="../assets/images/new/four-icon01.png">
-                                     <strong>产科挂号</strong>
-                                </span>
                   <span>
-                                     <img src="../assets/images/new/four-icon02.png">
-                                     <strong>诊间取号</strong>
-                                </span>
+                    <img src="../assets/images/new/four-icon01.png">
+                    <strong>产科挂号</strong>
+                  </span>
                   <span>
-                                     <img src="../assets/images/new/four-icon03.png">
-                                     <strong>诊间取号</strong>
-                                </span>
+                    <img src="../assets/images/new/four-icon02.png">
+                    <strong>诊间取号</strong>
+                  </span>
+                  <span>
+                    <img src="../assets/images/new/four-icon03.png">
+                    <strong>诊间取号</strong>
+                  </span>
                 </div>
               </div>
             </div>
@@ -273,6 +280,7 @@ export default {
       qrcodeVisible: false,
       contactVisible: false,
       activeName: "second",
+      disabledPopover: false,
       swiperCurIndex: 0,
       viewCounter: 0,
       options: {
@@ -460,7 +468,7 @@ export default {
         display: inline-block;
         width: 100%;
 
-        span {
+        & > span {
           display: inline-block;
           text-align: center;
           margin-right: 56px;
@@ -483,6 +491,14 @@ export default {
             padding-top: 10px;
             @include adaptive660 {
               padding-top: 5px;
+            }
+          }
+
+          span[class^="icon-"] {
+            font-size: 52px;
+
+            [class^="path"]::before {
+              color: #fff;
             }
           }
         }
@@ -685,8 +701,7 @@ export default {
   }
   .third-center {
     width: 1080px;
-    padding: 30px 0;
-    padding-top: 50px;
+    padding: 50px 0 30px;
     @include adaptive720 {
       width: 760px;
     }
@@ -702,12 +717,17 @@ export default {
   .third-bottom {
     display: inline-block;
     width: 100%;
-    height: 50%;
+    height: 45%;
+    box-sizing: border-box;
     @include adaptive630 {
-      height: 52%;
+      /*height: 52%;*/
     }
   }
+  .third-top {
+    padding-bottom: 30px;
+  }
   .third-bottom {
+    height: 55%;
     @include adaptive630 {
       position: relative;
       top: -4%;
@@ -1077,6 +1097,9 @@ export default {
 
 .my-popper {
   min-width: 90px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* animation */
